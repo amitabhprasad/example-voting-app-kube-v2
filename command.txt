@@ -1,0 +1,15 @@
+kubectl create -f .
+
+kubectl create -f <nameOfFile>
+
+kubectl get pods -o wide
+
+kubectl get nodes -o wide
+
+kubect get all
+
+# scaling applicaiton
+kubectl apply -f voting-app-deployment.yml
+kubectl edit deployment voting-app-deployment
+
+
